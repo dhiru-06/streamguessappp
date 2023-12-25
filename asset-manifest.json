@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/streamguessappp/static/css/main.21c84600.css",
-    "main.js": "/streamguessappp/static/js/main.19da4e8a.js",
+    "main.js": "/streamguessappp/static/js/main.c6417b54.js",
     "static/js/787.445704ff.chunk.js": "/streamguessappp/static/js/787.445704ff.chunk.js",
     "index.html": "/streamguessappp/index.html",
     "main.21c84600.css.map": "/streamguessappp/static/css/main.21c84600.css.map",
-    "main.19da4e8a.js.map": "/streamguessappp/static/js/main.19da4e8a.js.map",
+    "main.c6417b54.js.map": "/streamguessappp/static/js/main.c6417b54.js.map",
     "787.445704ff.chunk.js.map": "/streamguessappp/static/js/787.445704ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.21c84600.css",
-    "static/js/main.19da4e8a.js"
+    "static/js/main.c6417b54.js"
   ]
 }
