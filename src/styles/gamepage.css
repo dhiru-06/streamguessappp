@@ -55,6 +55,7 @@
         width: 100%; /* Full width for smaller screens */
         box-sizing: border-box;
         margin-bottom: 0px;
+        border-bottom: 1px solid green;
       }
 
       .songImg{
