@@ -1,7 +1,7 @@
 {
   "name": "streamguessapp",
   "version": "0.1.0",
-  "homepage": "https://dhiru-06.github.io/streamguessappp",
+  "homepage": "http://soundrank.live/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
