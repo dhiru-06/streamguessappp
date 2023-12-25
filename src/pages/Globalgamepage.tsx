@@ -102,7 +102,7 @@ const GlobalGamePage = () => {
     }
 
     setProcessingGuess(true);
-    if (tracks[0].popularity > popularity) {
+    if (tracks[0].popularity < popularity) {
       setShowRanking(true);
       setWrongGuess(false);
       setTimeout(() => {
