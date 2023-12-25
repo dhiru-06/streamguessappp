@@ -1,0 +1,72 @@
+.containerCard{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.cardGame {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  
+    /* Gradient background */
+    background-image: linear-gradient(
+      to right top,
+      #fffbf5,
+      #f7efe5,
+      #c3acd0,
+      #7743db,
+      #7dcdea
+    );
+  }
+  .songImg{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .albumName{
+    font-size: 20px;
+    font-weight: normal;
+    margin: 0
+  }
+
+@media (max-width: 600px){
+    .containerCard{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+        padding: 0,;
+    }
+    .cardGame {
+        height: 100%;
+        width: 100%; /* Full width for smaller screens */
+        box-sizing: border-box;
+        margin-bottom: 0px;
+      }
+
+      .songImg{
+        max-width: 20%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 5px;
+      }
+
+      .albumName{
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0
+      }
+}
