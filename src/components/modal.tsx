@@ -4,7 +4,7 @@ import { TwitterShareButton } from "react-share";
 
 function MyVerticallyCenteredModal(props: any){
 
-  const shareMessage = `I scored ${props.score} points in the music ranking game! 🎵🎉 Try to beat my score!`;
+  const shareMessage = `I scored ${props.score} points in the music ranking game! 🎵🎉 and my highest score is ${parseInt(localStorage.getItem("highScore") || '0')} Try to beat my score!`;
 
   return (
     <Modal
@@ -15,7 +15,7 @@ function MyVerticallyCenteredModal(props: any){
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          StreamGuess
+          SoundRank
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
@@ -27,7 +27,7 @@ function MyVerticallyCenteredModal(props: any){
         <TwitterShareButton
           url={window.location.href}
           title={shareMessage}
-          hashtags={["MusicRankingGame"]}
+          hashtags={["SoundRank"]}
         >
           <Button variant="success">Share on Twitter</Button>
         </TwitterShareButton>
